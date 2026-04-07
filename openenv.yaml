@@ -1,0 +1,37 @@
+name: pharmacy-assistant-env
+description: AI agent environment for interpreting prescriptions and matching medicines
+version: 1.0
+
+entrypoint: env.environment:PharmacyEnv
+
+tasks:
+  - name: easy
+    description: Extract medicine from prescription
+  - name: medium
+    description: Extract and match medicine
+  - name: hard
+    description: Suggest alternatives when medicine unavailable
+
+observation_space:
+  type: object
+  properties:
+    prescription_text:
+      type: string
+    extracted:
+      type: array
+      items:
+        type: string
+    matched:
+      type: array
+      items:
+        type: string
+
+action_space:
+  type: object
+  properties:
+    action_type:
+      type: string
+    value:
+      type: array
+      items:
+        type: string

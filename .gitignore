@@ -13,6 +13,5 @@ drug-ndc*.json
 frontend/node_modules/
 frontend/dist/
 .DS_Store
-uv.lock
 *.bak
 .pytest_cache/

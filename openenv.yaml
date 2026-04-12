@@ -1,37 +1,134 @@
-name: pharmacy-assistant-env
-description: AI agent environment for interpreting prescriptions and matching medicines
-version: 1.0
+name: pharmacist-env
+description: >
+  Clinical Decision Intelligence Environment.
+  A multi-step decision environment where an AI agent acts as a pharmacist,
+  interpreting noisy prescriptions, detecting drug interactions, managing
+  patient allergies, handling inventory constraints, and making
+  safety-critical clinical decisions.
+version: "2.0"
 
-entrypoint: env.environment:PharmacyEnv
+entrypoint: env.environment:PharmacistEnv
 
 tasks:
   - name: easy
-    description: Extract medicine from prescription
+    description: Simple single-drug prescription for a healthy adult patient
   - name: medium
-    description: Extract and match medicine
+    description: Two-drug prescription with abbreviations, OCR noise, and stock shortage
   - name: hard
-    description: Suggest alternatives when medicine unavailable
+    description: >
+      Complex multi-drug prescription with critical drug-drug interaction
+      (Warfarin + NSAID), allergy conflict (Penicillin + Amoxicillin),
+      age-related contraindication, and inventory constraints
 
 observation_space:
   type: object
   properties:
     prescription_text:
       type: string
-    extracted:
+      description: Raw prescription input (may contain OCR noise and abbreviations)
+    extracted_medicines:
       type: array
       items:
-        type: string
-    matched:
+        type: object
+        properties:
+          name: { type: string }
+          dosage: { type: string }
+          frequency: { type: string }
+          duration: { type: string }
+          confidence: { type: number }
+    patient_profile:
+      type: object
+      properties:
+        age: { type: integer }
+        weight_kg: { type: number }
+        gender: { type: string }
+        allergies: { type: array, items: { type: string } }
+        conditions: { type: array, items: { type: string } }
+        current_medications: { type: array, items: { type: string } }
+        pregnancy: { type: boolean }
+        renal_function: { type: string }
+    inventory:
       type: array
       items:
-        type: string
+        type: object
+        properties:
+          name: { type: string }
+          generic_name: { type: string }
+          stock: { type: integer }
+          price: { type: number }
+          strength: { type: string }
+    detected_interactions:
+      type: array
+      items:
+        type: object
+        properties:
+          drug_a: { type: string }
+          drug_b: { type: string }
+          severity: { type: string }
+          description: { type: string }
+          clinical_effect: { type: string }
+    risk_flags:
+      type: array
+      items:
+        type: object
+        properties:
+          category: { type: string }
+          severity: { type: string }
+          description: { type: string }
+          affected_drug: { type: string }
+    action_history:
+      type: array
+      items:
+        type: object
+        properties:
+          step: { type: integer }
+          action_type: { type: string }
+          reward: { type: number }
+    step_count: { type: integer }
+    max_steps: { type: integer }
+    clinical_notes: { type: array, items: { type: string } }
+    done: { type: boolean }
 
 action_space:
   type: object
   properties:
     action_type:
       type: string
-    value:
-      type: array
-      items:
-        type: string
+      enum:
+        - extract_medicine
+        - check_interaction
+        - ask_patient_info
+        - search_inventory
+        - suggest_alternative
+        - risk_assessment
+        - finalize
+    parameters:
+      type: object
+      description: Action-specific parameters (see documentation for each action type)
+
+reward_structure:
+  description: >
+    Dense, step-wise reward system reflecting clinical decision quality.
+    Safety violations are penalized most heavily.
+  positive:
+    correct_extraction: "+0.15 per correctly extracted medicine"
+    interaction_detection: "+0.25 per correctly identified drug interaction"
+    safe_decision: "+0.25 for overall safe clinical decision"
+    useful_clarification: "+0.15 for productive patient info query"
+    efficiency_bonus: "+0.10 for completing within optimal step count"
+  negative:
+    unsafe_dispensing: "-0.80 for dispensing a contraindicated drug"
+    allergy_ignored: "-1.00 for dispensing a drug triggering patient allergy"
+    hallucinated_medicine: "-0.50 for extracting a non-existent medicine"
+    redundant_action: "-0.30 for repeating the same action consecutively"
+
+grading:
+  dimensions:
+    - accuracy: "Extraction precision, recall, and final decision correctness"
+    - safety: "Interaction detection, allergy prevention, unsafe drug withholding"
+    - efficiency: "Step count, redundancy, completion"
+  weights:
+    accuracy: 0.35
+    safety: 0.45
+    efficiency: 0.20
+  range: "[0, 1]"

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pharmacist_env"
+version = "2.0"
+description = "Clinical Decision Intelligence Environment"
+authors = [{name = "Pharmacist AI"}]
+dependencies = [
+    "pydantic",
+    "fastapi",
+    "uvicorn",
+    "openai",
+    "openenv-core>=0.2.0"
+]
+
+[project.scripts]
+server = "server.app:main"

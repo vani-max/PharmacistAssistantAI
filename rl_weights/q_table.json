@@ -1,0 +1,1924 @@
+{
+  "q_table": {
+    "(0, 0, 0, 0, 0, 0, 0, 0)|extract_medicine": 0.7962499999999997,
+    "(1, 0, 0, 0, 0, 0, 1, 0)|search_inventory": 0.5749999999999998,
+    "(1, 0, 0, 0, 0, 0, 2, 0)|finalize": 0.49999999999999994,
+    "(0, 0, 0, 0, 0, 0, 0, 1)|extract_medicine": 1.1786333413514227,
+    "(2, 0, 0, 0, 0, 0, 1, 1)|ask_patient_info": 0.57065298886392,
+    "(2, 1, 0, 0, 0, 0, 2, 1)|check_interaction": 0.4430633173105583,
+    "(2, 1, 1, 0, 0, 0, 3, 1)|search_inventory": 0.36122435072315157,
+    "(2, 1, 1, 0, 0, 0, 4, 1)|search_inventory": 0.27499707186795264,
+    "(2, 1, 1, 0, 0, 0, 5, 1)|finalize": 0.45499979933199175,
+    "(4, 0, 0, 0, 0, 0, 1, 1)|ask_patient_info": 0.6771497071682039,
+    "(4, 1, 0, 0, 0, 1, 2, 1)|check_interaction": 0.5531080501304727,
+    "(4, 1, 1, 1, 2, 1, 3, 1)|suggest_alternative": 0.6046572761145124,
+    "(4, 1, 1, 1, 2, 1, 4, 1)|suggest_alternative": 0.3628374058421967,
+    "(4, 1, 1, 1, 2, 1, 5, 1)|search_inventory": 0.352450910602101,
+    "(4, 1, 1, 1, 2, 1, 6, 1)|search_inventory": 0.38780837274367785,
+    "(4, 1, 1, 1, 2, 1, 7, 1)|search_inventory": 0.5564983223300825,
+    "(4, 1, 1, 1, 2, 1, 8, 1)|search_inventory": 0.7024999999999998,
+    "(4, 1, 1, 1, 2, 1, 9, 1)|finalize": 0.9499999999999998,
+    "(4, 0, 0, 0, 0, 0, 1, 1)|check_interaction": 0.6782574898526343,
+    "(4, 0, 1, 1, 2, 0, 2, 1)|ask_patient_info": 0.690388990260528,
+    "(4, 1, 1, 1, 2, 1, 3, 1)|search_inventory": 0.508439649862161,
+    "(4, 1, 1, 1, 2, 1, 5, 1)|suggest_alternative": 0.3026763871125142,
+    "(2, 1, 0, 0, 0, 0, 2, 1)|search_inventory": 0.4321713734986615,
+    "(2, 1, 0, 0, 0, 0, 3, 1)|check_interaction": 0.3521575628499085,
+    "(2, 1, 0, 0, 0, 0, 3, 1)|search_inventory": 0.10447254149013069,
+    "(2, 1, 0, 0, 0, 0, 4, 1)|check_interaction": 0.4809382025673822,
+    "(4, 1, 1, 1, 2, 1, 4, 1)|search_inventory": 0.4889479241241501,
+    "(4, 1, 1, 1, 2, 1, 6, 1)|suggest_alternative": 0.4434820891625761,
+    "(4, 1, 0, 0, 0, 1, 2, 1)|suggest_alternative": 0.5548944205104347,
+    "(4, 1, 0, 0, 0, 1, 3, 1)|check_interaction": 0.3975855781470529,
+    "(2, 0, 0, 0, 0, 0, 1, 1)|search_inventory": 0.5536948265248923,
+    "(2, 0, 0, 0, 0, 0, 2, 1)|ask_patient_info": 0.47956041976659447,
+    "(4, 1, 1, 1, 2, 1, 8, 1)|suggest_alternative": 0.7963140235053499,
+    "(4, 0, 0, 0, 0, 0, 1, 1)|search_inventory": 0.6294469410616305,
+    "(4, 0, 0, 0, 0, 0, 2, 1)|check_interaction": 0.0,
+    "(4, 0, 1, 1, 2, 0, 3, 1)|search_inventory": -0.011999999999999997,
+    "(4, 0, 1, 1, 2, 0, 4, 1)|search_inventory": -0.06,
+    "(4, 0, 1, 1, 2, 0, 5, 1)|ask_patient_info": 0.04937586458419672,
+    "(2, 0, 0, 0, 0, 0, 1, 1)|check_interaction": 0.5508685516330075,
+    "(2, 0, 1, 0, 0, 0, 2, 1)|ask_patient_info": 0.4757944419984731,
+    "(4, 1, 0, 0, 0, 1, 2, 1)|search_inventory": 0.5126363715226032,
+    "(4, 0, 0, 0, 0, 0, 2, 1)|ask_patient_info": 0.5645804985852136,
+    "(4, 0, 1, 1, 2, 0, 2, 1)|search_inventory": 0.07283252602724505,
+    "(4, 0, 1, 1, 2, 0, 3, 1)|ask_patient_info": 0.262295218064346,
+    "(2, 0, 0, 0, 0, 0, 2, 1)|check_interaction": 0.08496695669884294,
+    "(2, 0, 1, 0, 0, 0, 3, 1)|ask_patient_info": 0.2032966596179257,
+    "(4, 0, 0, 0, 0, 0, 2, 1)|search_inventory": -0.089175,
+    "(4, 0, 0, 0, 0, 0, 3, 1)|ask_patient_info": 0.15779239636493508,
+    "(4, 1, 0, 0, 0, 1, 4, 1)|check_interaction": 0.30528776106994604,
+    "(4, 1, 1, 1, 2, 1, 7, 1)|suggest_alternative": 0.6187456555196609,
+    "(4, 1, 0, 0, 0, 1, 2, 1)|risk_assessment": 0.027244008845826555,
+    "(4, 1, 0, 1, 0, 2, 3, 1)|check_interaction": 0.1736433117427073,
+    "(4, 1, 1, 1, 2, 2, 4, 1)|suggest_alternative": 0.2184977540021136,
+    "(4, 1, 1, 1, 2, 2, 5, 1)|suggest_alternative": -0.097573171959,
+    "(4, 1, 1, 1, 2, 2, 6, 1)|search_inventory": -0.022013336290633297,
+    "(4, 1, 1, 1, 2, 2, 7, 1)|search_inventory": 0.05538102411252499,
+    "(4, 1, 1, 1, 2, 2, 8, 1)|search_inventory": 0.38827055120949244,
+    "(4, 1, 1, 1, 2, 2, 9, 1)|search_inventory": 0.6795989501664124,
+    "(4, 1, 1, 1, 2, 2, 10, 1)|finalize": 0.9468428715958879,
+    "(4, 1, 0, 1, 0, 2, 3, 1)|suggest_alternative": 0.045,
+    "(4, 1, 0, 1, 0, 2, 4, 1)|search_inventory": 0.03,
+    "(4, 1, 0, 1, 0, 2, 5, 1)|check_interaction": 0.008549999999999999,
+    "(4, 1, 1, 1, 2, 2, 8, 1)|suggest_alternative": 0.045,
+    "(4, 0, 1, 1, 2, 0, 2, 1)|suggest_alternative": 0.18518183122129672,
+    "(4, 1, 1, 1, 2, 2, 4, 1)|search_inventory": 0.051000000000000004,
+    "(4, 1, 1, 1, 2, 2, 6, 1)|suggest_alternative": -0.0707919043599766,
+    "(2, 0, 0, 0, 0, 0, 2, 1)|search_inventory": -0.06,
+    "(2, 0, 0, 0, 0, 0, 3, 1)|ask_patient_info": 0.1215397882998458,
+    "(4, 1, 0, 0, 0, 1, 3, 1)|suggest_alternative": 0.14097138479605834,
+    "(4, 0, 1, 1, 2, 0, 4, 1)|ask_patient_info": 0.1991353367676307,
+    "(4, 1, 1, 1, 2, 2, 5, 1)|search_inventory": 0.0934474965349365,
+    "(4, 1, 1, 1, 2, 2, 7, 1)|suggest_alternative": 0.02042847397321649,
+    "(4, 1, 0, 0, 0, 1, 3, 1)|search_inventory": -0.023970205507058587,
+    "(4, 1, 0, 0, 0, 1, 3, 1)|risk_assessment": -0.02145,
+    "(4, 1, 0, 1, 0, 2, 4, 1)|check_interaction": 0.020722142909024997
+  },
+  "episode_count": 1500,
+  "epsilon": 0.05,
+  "lr": 0.3,
+  "gamma": 0.95,
+  "q_table_size": 75,
+  "training_history": [
+    {
+      "episode": 467,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 468,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 468,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 468,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 469,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 469,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 469,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 470,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 470,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 470,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 471,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 471,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 471,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 472,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 472,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 472,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 473,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 473,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 473,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 474,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 474,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 474,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 475,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 475,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 475,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 476,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 476,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 476,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 477,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 477,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 477,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 478,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 478,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 478,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 479,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 479,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 479,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 480,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 480,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 480,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 481,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 481,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 481,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 482,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 482,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 482,
+      "task": "hard",
+      "reward": 1.2,
+      "steps": 11,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "risk_assessment",
+        "check_interaction",
+        "suggest_alternative",
+        "search_inventory",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 483,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 483,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 483,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 484,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 484,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 484,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 485,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 485,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 485,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 486,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 486,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 486,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 487,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 487,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 487,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 488,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 488,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 488,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 489,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 489,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 489,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 490,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 490,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 490,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 491,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 491,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 491,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 492,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 492,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 492,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.7,
+      "final_score": 0.715,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "suggest_alternative",
+        "search_inventory",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 493,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 493,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 493,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 494,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 494,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.84,
+      "final_score": 0.933,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "search_inventory",
+        "check_interaction",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 494,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.6,
+      "final_score": 0.695,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 495,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 495,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 495,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.7,
+      "final_score": 0.715,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "search_inventory",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 496,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 496,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 496,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.7,
+      "final_score": 0.715,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 497,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 497,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 497,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.7,
+      "final_score": 0.715,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "search_inventory",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 498,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 498,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 498,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.7,
+      "final_score": 0.715,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "search_inventory",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 499,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 499,
+      "task": "medium",
+      "reward": 1.05,
+      "steps": 6,
+      "accuracy": 0.9,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.913,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 499,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.7,
+      "final_score": 0.715,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "search_inventory",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 500,
+      "task": "easy",
+      "reward": 0.85,
+      "steps": 3,
+      "accuracy": 1.0,
+      "safety": 1.0,
+      "efficiency": 1.0,
+      "final_score": 1.0,
+      "actions": [
+        "extract_medicine",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 500,
+      "task": "medium",
+      "reward": 0.9,
+      "steps": 6,
+      "accuracy": 0.8,
+      "safety": 1.0,
+      "efficiency": 0.74,
+      "final_score": 0.878,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    },
+    {
+      "episode": 500,
+      "task": "hard",
+      "reward": 1.3,
+      "steps": 10,
+      "accuracy": 1.0,
+      "safety": 0.5,
+      "efficiency": 0.7,
+      "final_score": 0.715,
+      "actions": [
+        "extract_medicine",
+        "ask_patient_info",
+        "check_interaction",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "suggest_alternative",
+        "search_inventory",
+        "search_inventory",
+        "finalize"
+      ]
+    }
+  ]
+}

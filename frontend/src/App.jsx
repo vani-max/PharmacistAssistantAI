@@ -742,12 +742,14 @@ export default function App() {
       setConnected(ok);
       if (ok) {
         try {
+          const API_BASE = import.meta.env.PROD ? '' : '/api';
+          
           // Get model status from health
-          const res = await fetch('/api/health');
+          const res = await fetch(`${API_BASE}/health`);
           const health = await res.json();
           setModelInfo(health);
 
-          const histRes = await fetch('/api/training-history');
+          const histRes = await fetch(`${API_BASE}/training-history`);
           const histData = await histRes.json();
           setTrainingHistory(histData.history || []);
 

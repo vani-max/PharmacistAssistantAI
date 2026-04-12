@@ -10,7 +10,7 @@ tests/
 test/
 venv/
 env_venv/
-frontend/
+frontend/node_modules/
 data/
 drug-ndc*
 rl_weights/*.bak

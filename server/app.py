@@ -157,8 +157,10 @@ def list_tasks_endpoint():
 
 
 @app.post("/reset")
-def reset(req: ResetRequest):
+def reset(req: Optional[ResetRequest] = None):
     global env
+    if req is None:
+        req = ResetRequest(task_name="easy")
     try:
         env = PharmacistEnv(req.task_name)
         obs = env.reset()
@@ -196,7 +198,9 @@ def get_state():
 
 
 @app.post("/auto-run")
-def auto_run(req: AutoRunRequest):
+def auto_run(req: Optional[AutoRunRequest] = None):
+    if req is None:
+        req = AutoRunRequest()
     """
     Run the TRAINED RL agent on a task.
 

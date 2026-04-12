@@ -12,13 +12,16 @@ entrypoint: env.environment:PharmacistEnv
 tasks:
   - name: easy
     description: Simple single-drug prescription for a healthy adult patient
+    grader: graders.graders:grade_task
   - name: medium
     description: Two-drug prescription with abbreviations, OCR noise, and stock shortage
+    grader: graders.graders:grade_task
   - name: hard
     description: >
       Complex multi-drug prescription with critical drug-drug interaction
       (Warfarin + NSAID), allergy conflict (Penicillin + Amoxicillin),
       age-related contraindication, and inventory constraints
+    grader: graders.graders:grade_task
 
 observation_space:
   type: object

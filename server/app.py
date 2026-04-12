@@ -19,6 +19,8 @@ import sys
 from typing import Optional
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
@@ -368,6 +370,21 @@ def custom_run(req: CustomRunRequest):
         "llm_loaded": llm_agent_loaded,
         "clinical_report": clinical_report
     }
+
+# ---------------------------------------------------------------------------
+# Serve React Frontend
+# ---------------------------------------------------------------------------
+frontend_dist = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend", "dist")
+
+if os.path.exists(frontend_dist):
+    app.mount("/assets", StaticFiles(directory=os.path.join(frontend_dist, "assets")), name="assets")
+    app.mount("/vite.svg", StaticFiles(directory=frontend_dist, html=False), name="vite_svg")
+    
+    @app.get("/{full_path:path}")
+    def serve_frontend(full_path: str):
+        # We only catch-all for paths that don't match specific backend endpoints.
+        # Ensure we don't accidentally swallow API errors with an HTML page, but here it's fine.
+        return FileResponse(os.path.join(frontend_dist, "index.html"))
 
 
 def main():

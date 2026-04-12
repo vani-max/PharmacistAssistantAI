@@ -1,3 +1,12 @@
+# Stage 1: Build the React frontend
+FROM node:18 AS frontend-build
+WORKDIR /app/frontend
+COPY frontend/package*.json ./
+RUN npm install
+COPY frontend/ ./
+RUN npm run build
+
+# Stage 2: Serve with Python backend
 FROM python:3.10-slim
 
 WORKDIR /app
@@ -17,6 +26,9 @@ COPY rl_weights/ rl_weights/
 COPY inference.py .
 COPY openenv.yaml .
 COPY pyproject.toml .
+
+# Copy the built frontend from Stage 1
+COPY --from=frontend-build /app/frontend/dist /app/frontend/dist
 
 # Expose the FastAPI server port
 EXPOSE 8000

@@ -1,4 +1,4 @@
-const API = '/api';
+const API = import.meta.env.PROD ? '' : '/api';
 
 export async function fetchTasks() {
   const res = await fetch(`${API}/tasks`);
